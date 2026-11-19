@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Privacy Policy | News Poll</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <main>
+      <nav aria-label="News Poll policies"><a href="../">News Poll Policies</a></nav>
+      <h1>Privacy Policy</h1>
+      <p>Effective <time datetime="2026-11-19">19 November 2026</time></p>
+      <p>This policy describes how the News Poll developer handles information when you use the app on Reddit or visit these policy pages.</p>
+
+      <h2>Article previews and poll creation</h2>
+      <p>When you request a preview, News Poll receives the article URL you enter. When live previews are enabled, News Poll sends that URL to <a href="https://www.opengraph.io/privacy">OpenGraph.io</a> to retrieve the page’s Open Graph title and description. While live previews are disabled, the app uses sample article metadata. Submit public article links only. A URL can contain personal information or private access tokens.</p>
+      <p>News Poll sends the article title and description to OpenAI through its API to suggest a yes-or-no poll question and generate a header illustration. When you submit a poll question for review, the app sends the draft text to OpenAI for automated moderation and, if the draft passes that check, for spelling, grammar, and punctuation corrections. These requests do not include your Reddit username or account ID. Avoid putting personal or sensitive information in draft questions. See <a href="https://developers.openai.com/api/docs/guides/your-data">OpenAI’s API data controls</a> for its processing and retention practices.</p>
+
+      <h2>Information stored on Reddit</h2>
+      <p>If you publish a poll, News Poll stores its source URL, title, description, question, and any published header image with the Reddit post. Reddit hosts the post and any uploaded image. People who can view the post can see the published poll information, which stays with the post while it remains available on Reddit. News Poll uses the Reddit post and community identifiers to publish polls and clean up temporary draft posts.</p>
+      <p>The current version keeps votes and voter profile selections such as country, state, age range, and gender in the app screen’s temporary state. The app does not currently send those selections to its server or to the services that generate previews and questions. They are discarded when the app session ends.</p>
+
+      <h2>Logs and retention</h2>
+      <p>News Poll does not maintain a separate database of unpublished poll drafts. Reddit’s hosting infrastructure may keep operational logs, including errors that News Poll records to diagnose problems. OpenAI and OpenGraph.io may retain request information under their own API policies and applicable account settings. Reddit handles its own platform information under the <a href="https://www.reddit.com/policies/privacy-policy">Reddit Privacy Policy</a>.</p>
+      <p>GitHub Pages hosts these policy pages. GitHub logs visitor IP addresses for security as described in its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">Privacy Statement</a>.</p>
+
+      <h2>Choices and requests</h2>
+      <p>You can avoid sending information for article previews or question review by skipping those features. To ask about your information, request access, correction, or deletion where applicable, or report personal information in a poll, <a href="https://www.reddit.com/message/compose/?to=ineedtopooargh">message the News Poll developer on Reddit</a>. Include the poll link if relevant and leave sensitive information out of your message. Use Reddit’s privacy controls for information Reddit manages separately.</p>
+      <p>If this policy changes, the current version and its effective date will appear on this page.</p>
+    </main>
+  </body>
+</html>
